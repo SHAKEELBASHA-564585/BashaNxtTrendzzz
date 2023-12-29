@@ -1,0 +1,49 @@
+.Order-place-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.head {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+  height: 55px;
+  width: 150px;
+  color: white;
+  background-color: red;
+  border-width: 0px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .head {
+    font-size: 20px;
+  }
+  .img {
+    height: 100px;
+    width: 100px;
+  }
+  .btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+}
